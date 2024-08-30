@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid-item {
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+
+.grid-item:hover {
+  background-color: #eaeaea;
+  transition: 0.25s all ease-in-out;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  border: 2px solid black;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.button-container {
+  margin: 32px;
+}
+
+.button {
+  width: 128px;
+  padding: 16px;
+  cursor: pointer;
+}
